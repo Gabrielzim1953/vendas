@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Vendas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-logo" id="lojaInicial">L</div>
+        <div class="brand-text">
+          <strong id="lojaNome">Minha Loja</strong>
+          <span>Gestão de vendas</span>
+        </div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="sidebar-foot">
+        <button class="btn ghost full" id="btnTema" type="button"></button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div id="view"></div>
+    </main>
+  </div>
+
+  <dialog id="modal"></dialog>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="tooltip" hidden></div>
+  <div id="print-area"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
